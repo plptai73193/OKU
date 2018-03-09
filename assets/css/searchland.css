@@ -1,0 +1,34 @@
+/*
+ * CSS Document
+ * CSS by PLPT
+ */
+.p0{
+	padding-bottom: 0 !important;
+}
+.p10{
+	padding-bottom: 10px !important;
+}
+.dark{
+	background: #262626 !important;
+}
+.text-center{
+	text-align: center !important;
+}
+#sec1{
+	padding-bottom: 15px;
+}
+#sec1 h1 span{
+	background: #262626;
+}
+#sec1 .img_desc{
+	margin-top: 5px;
+	margin-bottom: 35px;
+}
+#sec1 .bottom_text p{
+	margin-bottom: 35px;
+}
+@media screen and (max-width: 991px) {
+	#sec1 .bottom_text1{
+		margin-top: 35px;
+	}
+}

@@ -1,0 +1,117 @@
+/*
+ * CSS Document
+ * CSS by PLPT
+ */
+
+
+.p0{
+	padding-bottom: 0 !important;
+}
+.p10{
+	padding-bottom: 10px !important;
+}
+.dark{
+	background: #262626 !important;
+}
+.text-center{
+	text-align: center !important;
+}
+#sec1{
+	padding-bottom: 20px !important;
+}
+#sec1 h1 span{
+	background: #262626;
+}
+#sec1 .under_text1{
+	max-width: 670px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#sec1 .bottom_text p{
+	margin-bottom: 40px;
+}
+#sec2{
+	padding: 55px 0;
+	text-align: left;
+	background: #313131;
+}
+#sec2 h2{
+	max-width: 540px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#sec2 .text p{
+	margin-bottom: 40px;
+}
+#sec3{
+	padding-bottom: 10px;
+	background: #262626 !important;
+}
+#sec3 h2{
+	max-width: 390px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#sec3 .text p{
+	margin-bottom: 40px;
+}
+#sec3 .box{
+	width: 990px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	background: #313131;
+	border: 1px solid #444444;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 45px;
+}
+#sec3 .box ul li{
+	position: relative;
+	padding-left: 60px;
+	padding-right: 40px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+#sec3 .box ul li:last-child{
+	margin-bottom: 0;
+}
+#sec3 .box ul li:before{
+	content: '';
+	font-family:'FontAwesome';
+	font-size: 10px;
+	position: absolute;
+	top: 0px;
+	left: 30px;
+}
+#sec3 p.img_desc{
+
+}
+@media screen and (max-width: 767px){
+	#sec1 .bottom_text{
+		margin-top: 40px;
+	}
+	#sec1 .under_text1{
+		text-align: left !important;
+	}
+	#sec1 .desc{
+		text-align: left !important;
+	}
+}
+@media screen and (max-width: 640px) {
+	#sec1 h2{
+		max-width: 265px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#sec3 .box ul li{
+		padding-right: 10px;
+		padding-left: 45px;
+	}
+	#sec3 .box ul li:before{
+		left: 20px;
+	}
+}
